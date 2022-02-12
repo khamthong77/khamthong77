@@ -1,0 +1,46 @@
+1.Course
+  
+  pubilc class Course {
+      //Attributes
+          protected String name;
+              protected double grade;
+                  //Methods
+                  }
+ 2.instructor
+ public class Instructor extends Person {
+    //Attributes
+    //Methods
+        public static void assign(){
+            }
+            }
+   3.Person
+   public class Person {
+    //Attributes
+        protected String name;
+            protected static int age;
+    //Methods
+        private static int getAge(){
+        return age;
+            }
+                public static void printInformation(){
+                        int b = getAge();
+                                System.out.println("Age: " + b);
+                                    }
+                                    }
+
+4.Select
+
+Public class Select {
+    //Attributes
+    protected float mark;
+    protected String location;
+    //Methods
+}
+
+5.Student
+
+Public class Student {
+    //Attributes
+        protected int year;
+            //Methods
+            }
